@@ -20,7 +20,6 @@
 		6D7E634618A9375400E52A17 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E634518A9375400E52A17 /* testTests.m */; };
 		6D7E635318A938B400E52A17 /* skypeLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E635218A938B400E52A17 /* skypeLauncher.m */; };
 		6D7E635818AA9F6400E52A17 /* SkypeBlueLeopard.icns in Resources */ = {isa = PBXBuildFile; fileRef = 6D7E635718AA9F6400E52A17 /* SkypeBlueLeopard.icns */; };
-		6D7E636418AB019F00E52A17 /* userView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7E636318AB019F00E52A17 /* userView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -266,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D7E636418AB019F00E52A17 /* userView.m in Sources */,
 				6D7E632F18A9375400E52A17 /* AppDelegate.m in Sources */,
 				6D7E632818A9375400E52A17 /* main.m in Sources */,
 				6D7E635318A938B400E52A17 /* skypeLauncher.m in Sources */,
@@ -478,6 +476,7 @@
 				6D7E634B18A9375400E52A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6D7E634C18A9375400E52A17 /* Build configuration list for PBXNativeTarget "SkypeLauncherTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +485,7 @@
 				6D7E634E18A9375400E52A17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
