@@ -8,7 +8,8 @@
 
 #import "userView.h"
 
-@interface userView (){
+@interface userView ()
+{
     userViewState _buttonState;
     NSButton *actionButton;
     NSString *_username;
@@ -29,7 +30,8 @@
 //    [super drawRect:dirtyRect];
 //}
 
--(void)setState:(userViewState)state{
+-(void)setState:(userViewState)state
+{
     _buttonState = state;
     if (!actionButton)
     {
@@ -42,7 +44,8 @@
         [actionButton setBezelStyle:NSRoundedBezelStyle];
         [self addSubview:actionButton];
     }
-    switch (state) {
+    switch (state)
+    {
         case userViewStateAutologin:
         {
             [actionButton setTitle:@"Autologin"];
@@ -66,7 +69,8 @@
     }
 }
 
--(void)setUsername:(NSString *)username{
+-(void)setUsername:(NSString *)username
+{
     _username = username;
     if (!usernameTextField)
     {
@@ -83,7 +87,8 @@
     }
 }
 
--(void)actionButtonAction:(id)sender{
+-(void)actionButtonAction:(id)sender
+{
     if (self.delegate)
         [self.delegate performSelector:@selector(buttonPressedInView:) withObject:self];
 }

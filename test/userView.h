@@ -6,6 +6,9 @@
 //  Copyright (c) 2014 unknown corp. All rights reserved.
 //
 
+#import <Cocoa/Cocoa.h>
+
+
 typedef enum
 {
     userViewStateAutologin,
@@ -13,14 +16,12 @@ typedef enum
     userViewStateLogin
 }userViewState;
 
-#import <Cocoa/Cocoa.h>
 @class userView;
 
 @protocol userViewDelegale <NSObject>
 
 @required
 -(void)buttonPressedInView:(userView*)view;
-
 @end
 
 @interface userView : NSView
