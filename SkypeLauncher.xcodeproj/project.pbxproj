@@ -41,7 +41,6 @@
 		6D7E632318A9375400E52A17 /* SkypeLauncher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SkypeLauncher-Info.plist"; sourceTree = "<group>"; };
 		6D7E632518A9375400E52A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6D7E632718A9375400E52A17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6D7E632918A9375400E52A17 /* test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Prefix.pch"; sourceTree = "<group>"; };
 		6D7E632B18A9375400E52A17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		6D7E632D18A9375400E52A17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6D7E632E18A9375400E52A17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,6 +56,7 @@
 		6D7E635718AA9F6400E52A17 /* SkypeBlueLeopard.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = SkypeBlueLeopard.icns; path = ../SkypeBlueLeopard.icns; sourceTree = "<group>"; };
 		6D7E636218AB019F00E52A17 /* userView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = userView.h; sourceTree = "<group>"; };
 		6D7E636318AB019F00E52A17 /* userView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = userView.m; sourceTree = "<group>"; };
+		974598E819D04DFE001CB20E /* SkypeLauncher-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SkypeLauncher-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,11 +138,11 @@
 		6D7E632218A9375400E52A17 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				974598E819D04DFE001CB20E /* SkypeLauncher-Prefix.pch */,
 				6D7E632318A9375400E52A17 /* SkypeLauncher-Info.plist */,
 				6D7E632418A9375400E52A17 /* InfoPlist.strings */,
 				6D7E635718AA9F6400E52A17 /* SkypeBlueLeopard.icns */,
 				6D7E632718A9375400E52A17 /* main.m */,
-				6D7E632918A9375400E52A17 /* test-Prefix.pch */,
 				6D7E632A18A9375400E52A17 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
