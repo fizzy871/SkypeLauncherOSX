@@ -1,7 +1,7 @@
 SkypeLauncherOSX
 =============
 
-App, which launch another copy of Skype app and autologin in with selected user.
+App, which launchs another copy of Skype app and autologin it with selected user. Users automatically finds in Skype documents folder
 
 // seems not working for current Skype version
 
